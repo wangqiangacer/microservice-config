@@ -1,15 +1,18 @@
 spring:
   profiles:
-    active: dev  
-server:
-  port: 8888
+    active: dev
+
 ---
 spring:
   profiles: dev
   application:
     name: MICROSVERICE-USER-DEV
+server:
+  port: 3355
 ---
 spring:
   profiles: test
   application:
     name: MICROSVERICE-USER-TEST
+server:
+  port: 3355
