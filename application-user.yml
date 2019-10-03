@@ -15,4 +15,4 @@ spring:
   application:
     name: MICROSVERICE-USER-TEST
 server:
-  port: 3358
+  port: 3359
